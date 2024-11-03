@@ -1,0 +1,35 @@
+* {
+    font-style: initial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-menu{
+    
+    padding-left: 40px;
+    height: 50px;
+}
+.container-menu ul{
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+.container-menu ul li {
+    display: inline-block;
+    color: rgba(212, 212, 212, 0.708);
+}
+
+.container-menu ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 17px;
+    color: rgba(212, 212, 212, 0.708);
+    transition: all 0.25s ease-in-out;
+}
+.container-menu ul li a:hover{
+    color: white !important;
+}
+.active {
+    color: white !important;
+}
